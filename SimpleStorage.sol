@@ -28,6 +28,14 @@ contract SimpleStorage {
        function retriever() public view returns(uint256) {
            return myFavoriteNumber;
       }
-
       
+      // calldata, memeory, storage
+      function addPerson(string memory _name, uint256 _favoriteNumber) public {
+           Person memory newPerson = Person(_favoriteNumber, _name);
+           listOfPeople.push(newPerson);
+           //OR
+           // listOfPeople.push( Person(_favoriteNumber, _name));
+      }
+
+
 }
