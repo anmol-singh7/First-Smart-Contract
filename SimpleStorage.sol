@@ -2,10 +2,15 @@
 pragma solidity 0.8.18;
 
 contract SimpleStorage {
-       uint256 favoriteNumber;
+       uint256 public favoriteNumber;
 
        function store(uint256 _favoriteNumber) public {
             favoriteNumber = _favoriteNumber;
             
        }
+       
+       // view, pure
+       function retriever() public view returns(uint256) {
+           return favoriteNumber;
+      }
 }

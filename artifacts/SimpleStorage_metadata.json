@@ -6,6 +6,32 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retriever",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -47,11 +73,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x01d09a0d8730d1ca6819ef03dae64ba797b491fa6b380b71badac2c1c2442daf",
+			"keccak256": "0xdc289c2fde745a2fcab1b8bca4ec84700c0f6175b83c39da83de285bbe7add95",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1ae24e1343f1db44011c450a50ff4b0564df4fd839219849839801987a0cfdf7",
-				"dweb:/ipfs/QmaN7KNfRcqd5J4gXx1bXfQVSery88dob8NNt5t7d9BzFN"
+				"bzz-raw://f0d027d368d78b77c6e5dc75a38d76a71fe69101f77b46e244fc53920499c959",
+				"dweb:/ipfs/QmepGrwHSYRYNCQWd9FrWt6wPgwrcCTjSDXKa2RSFk5bGS"
 			]
 		}
 	},
